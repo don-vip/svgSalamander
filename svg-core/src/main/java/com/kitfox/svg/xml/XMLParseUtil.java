@@ -810,7 +810,7 @@ public class XMLParseUtil
 
         for (int i = 0; i < styles.length; i++)
         {
-            if (styles[i].length() == 0)
+            if (styles[i].isEmpty())
             {
                 continue;
             }

@@ -224,7 +224,7 @@ public class ColorTable
     {
         Color retVal = null;
 
-        if ("".equals(val))
+        if (val.isEmpty())
         {
             return null;
         }

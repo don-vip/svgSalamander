@@ -554,7 +554,7 @@ public class SVGUniverse implements Serializable
      */
     public URI getStreamBuiltURI(String name)
     {
-        if (name == null || name.length() == 0)
+        if (name == null || name.isEmpty())
         {
             return null;
         }
