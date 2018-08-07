@@ -47,8 +47,6 @@ import java.awt.font.GlyphMetrics;
 import java.awt.font.GlyphVector;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  *

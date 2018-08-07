@@ -38,7 +38,6 @@ package com.kitfox.svg.animation;
 
 import com.kitfox.svg.xml.StyleAttribute;
 import java.awt.geom.*;
-import java.util.*;
 
 import com.kitfox.svg.pathcmd.*;
 import com.kitfox.svg.*;

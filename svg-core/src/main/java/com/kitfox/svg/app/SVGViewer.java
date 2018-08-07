@@ -52,7 +52,6 @@ import java.net.URI;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.security.AccessControlException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;

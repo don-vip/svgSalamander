@@ -37,7 +37,6 @@
 package com.kitfox.svg.animation;
 
 import com.kitfox.svg.xml.StyleAttribute;
-import java.util.*;
 
 import com.kitfox.svg.*;
 
