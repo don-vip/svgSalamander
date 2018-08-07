@@ -122,7 +122,7 @@ public class Animate extends AnimateBase implements AnimateColorIface
                 if (fromColor == null)
                 {
                     //Try path
-                    fromPath = this.buildPath(strn, GeneralPath.WIND_EVEN_ODD);
+                    fromPath = SVGElement.buildPath(strn, GeneralPath.WIND_EVEN_ODD);
                     dataType = DT_PATH;
                 }
                 else dataType = DT_COLOR;
@@ -142,7 +142,7 @@ public class Animate extends AnimateBase implements AnimateColorIface
                 if (toColor == null)
                 {
                     //Try path
-                    toPath = this.buildPath(strn, GeneralPath.WIND_EVEN_ODD);
+                    toPath = SVGElement.buildPath(strn, GeneralPath.WIND_EVEN_ODD);
                     dataType = DT_PATH;
                 }
                 else dataType = DT_COLOR;
@@ -414,7 +414,7 @@ public class Animate extends AnimateBase implements AnimateColorIface
                 if (fromColor == null)
                 {
                     //Try path
-                    fromPath = this.buildPath(strn, GeneralPath.WIND_EVEN_ODD);
+                    fromPath = SVGElement.buildPath(strn, GeneralPath.WIND_EVEN_ODD);
                     dataType = DT_PATH;
                 }
                 else dataType = DT_COLOR;
@@ -434,7 +434,7 @@ public class Animate extends AnimateBase implements AnimateColorIface
                 if (toColor == null)
                 {
                     //Try path
-                    toPath = this.buildPath(strn, GeneralPath.WIND_EVEN_ODD);
+                    toPath = SVGElement.buildPath(strn, GeneralPath.WIND_EVEN_ODD);
                     dataType = DT_PATH;
                 }
                 else dataType = DT_COLOR;
